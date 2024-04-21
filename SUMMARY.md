@@ -10,4 +10,6 @@
 
 ## Validators
 
-* [Setup](validators/setup.md)
+* [Deployment](validators/deployment.md)
+* [Rekeying](validators/rekeying.md)
+* [Attestations](validators/attestations.md)
