@@ -7,8 +7,8 @@ Before beginning this process, you should have:
 * Synced Chia full node
 * Synced Ethereum full node
 * A Coinbase Cloud account and access to your base RPC URL (details in step 1)
-* A Nostr relay set up (empty public key whitelist)
-* A machine you intend to run the validator software on
+* A Nostr relay (empty public key whitelist)
+* Access to the machine you intend to run the validator software on
 * Two hardware wallets, one for Ethereum (e.g., Trezor) and one for Chia (Tangem)
 * &#x20;The Ozone wallet app installed on your phone
 
