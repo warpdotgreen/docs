@@ -146,4 +146,35 @@ At this point, you may also set:
   * For mainnet, the value should look like this: `https://api.developer.coinbase.com/rpc/v1/base/[api-key]`
   * For testnet, please ensure that you select 'Base Sepolia' (i.e., testnet) before copying the URL. It's somewhere on the page, and the default is mainnet even if you 'created' a testnet node. The value should look like this: `https://api.developer.coinbase.com/rpc/v1/base-sepolia/[api-key]`
 
-## Step 3:&#x20;
+## Step 2:  Deploy contracts
+
+Validator 0 will deploy the portal singleton on XCH and a multisig on each EVM network (Ethereum and Base). Once addresses are shared, fill in the following config values:
+
+* `xch.portal_launcher_id` - Launcher id of portal singleton (will be sent in a message)
+* `xch.min_height` - First block when messages can be sent. Will also be included in the message.
+* `eth.deployer_safe_address` and `bse.deployer_safe_address`: This is the cold key multisig. Get the addresses from the message and access them using the Safe{Wallet} app. Check that the threshold and addresses are set appropriately (same values as config).
+
+In the Safe app, a deployment transaction will also be created shortly after. After updating the config, you can verify the transactions using:
+
+```
+python3 cli.py deployment get-evm-deployment-data --weth-address meth --tip 30 --chain [chain-id]
+```
+
+Where `[chain-id]` is either 'eth' or 'bse.' For each EVM network, you can go on to fill the following config values:
+
+* `portal_address`: The address of the portal. In the deploy command output, you can find it under `Tx 2: deploy TransparentUpgradeableProxy` as `Predicted address`.
+* `erc20_bridge_address`: The address of the `ERC20Bridge` contract. It's the `Predicted address under Tx 3: deploy ERC20Bridge`.
+
+{% hint style="info" %}
+To allow the Portal contract to be updated, it'll be deployed behind a standard proxy called "`TransparentUpgradeableProxy." The address of the 'Portal' contract is the 'logic address' (it implements the current logic of the portal, which means the address can change). However, when specifying the portal address, always refer to the address of the proxy contract, as that is the contract that runs the logic (e.g., sends and receives messages).`
+{% endhint %}
+
+Once the transaction has enough confirmations, it will be executed by validator 0. You'll then be able to fill in the last two config values, `eth.min_height` and `bse.min_height`. Their value should be the block that the contract deployment transaction was confirmed at.
+
+## Step 3: Run validator
+
+You're now ready to run the validator software! Start it using:
+
+```
+python3 cli.py listen
+```
