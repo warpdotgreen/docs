@@ -166,7 +166,7 @@ Where `[chain-id]` is either 'eth' or 'bse.' For each EVM network, you can go on
 * `erc20_bridge_address`: The address of the `ERC20Bridge` contract. It's the `Predicted address under Tx 3: deploy ERC20Bridge`.
 
 {% hint style="info" %}
-To allow the Portal contract to be updated, it'll be deployed behind a standard proxy called "`TransparentUpgradeableProxy." The address of the 'Portal' contract is the 'logic address' (it implements the current logic of the portal, which means the address can change). However, when specifying the portal address, always refer to the address of the proxy contract, as that is the contract that runs the logic (e.g., sends and receives messages).`
+To allow the Portal contract to be updated, it'll be deployed behind a standard proxy called "TransparentUpgradeableProxy." The address of the 'Portal' contract is the 'logic address' (it implements the current logic of the portal, which means the address can change). However, when specifying the portal address, always refer to the address of the proxy contract, as that is the contract that runs the logic (e.g., sends and receives messages).
 {% endhint %}
 
 Once the transaction has enough confirmations, it will be executed by validator 0. You'll then be able to fill in the last two config values, `eth.min_height` and `bse.min_height`. Their value should be the block that the contract deployment transaction was confirmed at.
