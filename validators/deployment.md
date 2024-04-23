@@ -75,7 +75,6 @@ In the root of the 'cli' local copy, create a file called 'config.json' and past
   "xch": {
     "chia_root_or_chia_url": "",
     "agg_sig_data": "",
-    "prefix": "",
     "my_hot_private_key": "",
     "portal_threshold": 0,
     "portal_keys": [],
@@ -140,7 +139,6 @@ The message will also contain a list of public keys to add to your Nostr server 
 * `xch.agg_sig_data`: This is a constant that is specific to the network you're running.&#x20;
   * Testnet: `37a90eb5185a9c4439a91ddc98bbadce7b4feba060d50116a067de66bf236615` ([source](https://github.com/Chia-Network/chia-blockchain/blob/main/chia/util/initial-config.yaml#L90))&#x20;
   * Mainnet: `ccd5bb71183532bff220ba46c268991a3ff07eb358e8255a65c30a2dce0e5fbb` ([source](https://github.com/Chia-Network/chia-blockchain/blob/main/chia/util/initial-config.yaml#L18))
-* `xch.prefix`: 'txch' for testnet and 'xch' for mainnet&#x20;
 * `xch.portal_threshold` ,  `xch.multisig_threshold`, `eth.portal_threshold` ,  `bse.portal_threshold`: Set to 5 for testnet, 8 for mainnet
 * `xch.sign_min_height`: The minimum number of confirmations a message needs to have on Chia for it to be signed. Used to prevent attacks exploiting re-orgs - set this value to 5 for testnet and 32 for mainnet ([source](https://docs.chia.net/consensus-analysis/)).
 * `eth.rpc_url`: Point this to your Ethereum RPC URL.
