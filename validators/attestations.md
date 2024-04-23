@@ -71,3 +71,5 @@ Message: b'Validator #2 attests having access to their cold private XCH key by s
 Message hash: e9a9144b1d4455448cf317b4d5da231c0e0893355c323e438ac1e3234f7fc7e9
 Signature is valid!
 ```
+
+Once validator 0 verifies an attestation,  he will reach with a 'check' emoji to the message containing it. Any validator is welcome to verify any attestations and react the same way.
