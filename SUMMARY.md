@@ -11,5 +11,5 @@
 ## Validators
 
 * [Deployment](validators/deployment.md)
-* [Rekeying](validators/rekeying.md)
 * [Attestations](validators/attestations.md)
+* [Rekeying](validators/rekeying.md)

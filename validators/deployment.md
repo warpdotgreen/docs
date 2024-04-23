@@ -57,7 +57,7 @@ To get your Tangem public key, you'll need to use Ozone. Connect your Tangem car
 {% endhint %}
 
 {% hint style="info" %}
-Please see 'attestations' to see how to generate an attestation for your cold XCH key.
+Please see '[Attestations](attestations.md)' to see how to generate an attestation for your cold XCH key.
 {% endhint %}
 
 Once you send the message, you may proceed to the next step and save the private keys in the config file.
