@@ -60,6 +60,10 @@ To get your Tangem public key, you'll need to use Ozone. Connect your Tangem car
 Please see '[Attestations](attestations.md)' to see how to generate an attestation for your cold XCH key.
 {% endhint %}
 
+{% hint style="info" %}
+A validator's index can always be used to get their details from lists. For example, in the `multisig_keys` list we'll set below, `multisig_keys[index]` will contain the multisig (cold) key of the validator for a given index. Note that these are 'code' lists - i.e., numbering starts at 0. Please do NOT make everything confusing by identifying yourself with a negative index.
+{% endhint %}
+
 Once you send the message, you may proceed to the next step and save the private keys in the config file.
 
 ## Step 1: Set up config.json
