@@ -163,7 +163,7 @@ python3 cli.py deployment get-evm-deployment-data --weth-address meth --tip 30 -
 Where `[chain-id]` is either 'eth' or 'bse.' For each EVM network, you can go on to fill the following config values:
 
 * `portal_address`: The address of the portal. In the deploy command output, you can find it under `Tx 2: deploy TransparentUpgradeableProxy` as `Predicted address`.
-* `erc20_bridge_address`: The address of the `ERC20Bridge` contract. It's the `Predicted address under Tx 3: deploy ERC20Bridge`.
+* `erc20_bridge_address`: The address of the `ERC20Bridge` contract. It's the `Predicted address` under `Tx 3: deploy ERC20Bridge`.
 
 {% hint style="info" %}
 To allow the Portal contract to be updated, it'll be deployed behind a standard proxy called "TransparentUpgradeableProxy." The address of the 'Portal' contract is the 'logic address' (it implements the current logic of the portal, which means the address can change). However, when specifying the portal address, always refer to the address of the proxy contract, as that is the contract that runs the logic (e.g., sends and receives messages).
