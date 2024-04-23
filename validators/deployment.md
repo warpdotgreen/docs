@@ -27,7 +27,11 @@ python3 cli.py keys generate-nostr-key
 ```
 
 {% hint style="info" %}
-Even if you're deploying on testnet, take the scenario seriously and handle keys proeprly.
+Even if you're deploying on testnet, take the scenario seriously and handle keys properly.
+{% endhint %}
+
+{% hint style="info" %}
+When running the commands, you'll see `Warning: Failed to load config.json` - ignore the warning for now, as we'll set up the config in later steps.
 {% endhint %}
 
 It is up to you if you want to back up mnemonics - a majority of validators can always rekey the portal. In the next step, you're going to use:
