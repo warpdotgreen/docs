@@ -128,7 +128,7 @@ After all validators have submitted their details, validator 0 will send a messa
 * `eth.hot_addresses` = `bse.hot_addresses`
 * `nostr.relays`
 
-At this point, you may also set:
+The message will also contain a list of public keys to add to your Nostr server whitelist. At this point, you may can set:
 
 * `xch.chia_root_or_chia_url`
   * If you're running a node locally, replace this key with `xch.chia_root` and set it to the location of the 'mainnet' folder (e.g., `/home/yakuhito/.chia-testnet11/mainnet`)
@@ -145,6 +145,10 @@ At this point, you may also set:
 * `bse.rpc_url`: You can create a Coinbase Cloud account [here](https://portal.cloud.coinbase.com/). You'll be allowed to create a node for free (i.e., get an API key).
   * For mainnet, the value should look like this: `https://api.developer.coinbase.com/rpc/v1/base/[api-key]`
   * For testnet, please ensure that you select 'Base Sepolia' (i.e., testnet) before copying the URL. It's somewhere on the page, and the default is mainnet even if you 'created' a testnet node. The value should look like this: `https://api.developer.coinbase.com/rpc/v1/base-sepolia/[api-key]`
+
+{% hint style="info" %}
+Don't forget to update your Nostr server's pubkey whitelist.
+{% endhint %}
 
 ## Step 2:  Deploy contracts
 
