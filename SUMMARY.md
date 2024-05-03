@@ -3,6 +3,7 @@
 ## Users
 
 * [FAQ](README.md)
+* [Contact Us](users/contact-us.md)
 
 ## Developers
 

@@ -26,6 +26,10 @@ python3 cli.py rekey sign-challenge --challenge [challenge] --validator-index [i
 You can run all the attestation commands on a machine that does NOT have your hot keys in the config. Simply clone the 'cli' repository on your computer and copy config.json (with hot keys removed).
 {% endhint %}
 
+{% hint style="info" %}
+By default, your public cold key is taken from the config. If you're just setting things up, specify your public key using the optional `--pubkyey [tangem-public-key]` switch.
+{% endhint %}
+
 Remember to replace `[challenge]` with the given challenge and `[index]` with your assigned validator index. The command will generate a QR code and save it to 'qr.png.'
 
 Example command output:
@@ -61,6 +65,10 @@ Anyone can  verify the given attestation using:
 ```
 python3 cli.py rekey verify-challenge --challenge [challenge] --sig [attestation]
 ```
+
+{% hint style="info" %}
+If your config has not been set up yet, this command also supports the `--pubkey [tangem-public-key]` switch.
+{% endhint %}
 
 Example command output:
 
