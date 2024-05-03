@@ -13,6 +13,7 @@
   * [Chia - Sending Messages](developers/warp.green/chia-sending-messages.md)
   * [Chia - Receiving Messages](developers/warp.green/chia-receiving-messages.md)
   * [EVM - Sending And Receiving Messages](developers/warp.green/evm-sending-and-receiving-messages.md)
+  * [Collecting Signatures](developers/warp.green/collecting-signatures.md)
 
 ## Validators
 
