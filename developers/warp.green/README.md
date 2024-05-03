@@ -17,3 +17,6 @@ The list below contains ids of networks that are currently supported by the prot
 
 <table><thead><tr><th width="246">Network</th><th>3-byte ID (Source/Destination) </th></tr></thead><tbody><tr><td>Chia (mainnet)</td><td>"xch" / 0x786368</td></tr><tr><td>Ethereum (mainnet)</td><td>"eth" / 0x657468</td></tr><tr><td>Base (mainnet)</td><td>"bse" / 0x627365</td></tr></tbody></table>
 
+### Message Toll
+
+Besides associated transaction fees, users and contracts that send messages also pay a 'message toll.' This small amount is responsible for preventing protocol abuse. It is not given to validators - instead, the toll is sent to the miner of the block in which the message was sent.
