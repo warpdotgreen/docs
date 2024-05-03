@@ -8,6 +8,7 @@
 ## Developers
 
 * [Introduction](developers/introduction.md)
+* [Contract Addresses](developers/contract-addresses.md)
 
 ## Validators
 
