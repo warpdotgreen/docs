@@ -1,5 +1,7 @@
 # Chia - Sending Messages
 
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Overview of the process required to send a message. A coin with the sender puzzle hash outputs a special CREATE_COIN condition that contains details about the message. The resulting coin can be spent in the same transaction, and uses the message toll as a transaction fee.</p></figcaption></figure>
+
 For Chia, sending messages is as simple as creating a coin. Specifically, the 'CREATE\_COIN' condition should contain the following arguments:
 
 * `puzzle_hash`: see below
