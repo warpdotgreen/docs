@@ -1,5 +1,7 @@
 # warp.green
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Messaging Protocol Overview - Validators observe events on one blockchain and generate signatures after the message has enough block confirmations. Users can then fetch the signatures from a public message board (Nostr) and relay the message to the destination chain.</p></figcaption></figure>
+
 warp.green is, at its core, a cross-chain messaging protocol - it allows sending messages from one chain to another. A message consists of:
 
 * **Nonce**: A unique 32-byte value that identifies the message on its source chain. Note that two messages can have the same nonce but different source chains.
@@ -8,6 +10,8 @@ warp.green is, at its core, a cross-chain messaging protocol - it allows sending
 * **Destination chain**: Similar to 'source chain' (3-byte, same possible values) except this parameter specifies the chain where the message is intended to be received.
 * **Destination**: The puzzle hash or address that will receive the message (similar to 'source').
 * **Contents**: A list of 32-byte values that contain the data that is going to be relayed.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Message Structure Visualization</p></figcaption></figure>
 
 While the structure of a message is the same, the process to send and retrieve on is different based on the type of blockchain (EVM/coinset) the operation is performed on. The pages in this section explain each process.
 
