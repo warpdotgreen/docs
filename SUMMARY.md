@@ -16,6 +16,8 @@
   * [Collecting Signatures](developers/warp.green/collecting-signatures.md)
 * [ERC-20 Bridge](developers/erc-20-bridge/README.md)
   * [Wrapping ERC-20s](developers/erc-20-bridge/wrapping-erc-20s.md)
+  * [Unwrapping ERC-20s](developers/erc-20-bridge/unwrapping-erc-20s.md)
+  * [MilliETH](developers/erc-20-bridge/millieth.md)
 
 ## Validators
 
