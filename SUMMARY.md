@@ -18,6 +18,9 @@
   * [Wrapping ERC-20s](developers/erc-20-bridge/wrapping-erc-20s.md)
   * [Unwrapping ERC-20s](developers/erc-20-bridge/unwrapping-erc-20s.md)
   * [MilliETH](developers/erc-20-bridge/millieth.md)
+* [CAT Bridge](developers/cat-bridge/README.md)
+  * [Wrapping CATs](developers/cat-bridge/wrapping-cats.md)
+  * [Unwrapping CATs](developers/cat-bridge/unwrapping-cats.md)
 
 ## Validators
 
