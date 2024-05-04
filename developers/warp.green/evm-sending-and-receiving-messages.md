@@ -16,7 +16,7 @@ function sendMessage(
 
 A per-message toll of `0.00001 ETH` will need to be sent for each message. Note that the function identifies the sender as `msg.sender`.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Schematic of sending a message from an EVM chain. A source (usually a contract) calls the portal's <code>sendMessage</code> function with the protocol-set message toll (denoted as $fee$ to highlight that the call also includes some value in ETH). A <code>MessageSent</code> is then generated, which the validators observe. After enough confirmations have passed, the validators generate signatures and post them on Nostr.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Schematic of sending a message from an EVM chain. A source (usually a contract) calls the portal's <code>sendMessage</code> function with the protocol-set message toll (denoted as $fee$ to highlight that the call also includes some value in ETH). A <code>MessageSent</code> is then generated, which the validators observe. After enough confirmations have passed, the validators generate signatures and post them on Nostr.</p></figcaption></figure>
 
 ### Receiving Messages
 
@@ -35,4 +35,4 @@ function receiveMessage(
 
 The `receiveMessage` function will call the destination contract and provide details about the message that has been relayed. It then proceeds to mark the nonce and source chain combination as 'used', thus preventing a message from being relayed twice.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Messages are relayed by users. Message data is first fetched from the source chain. After that, Nostr is queried (see 'Collecting Signatures') until enough validator signatures are obtained. The <code>receiveMessage</code> function is then called, which will call the destination contract. Note that warp.green is used as an oracle by the destination contract, which trusts the provided values (nonce, source chain id, source, contents) given that the Portal contract calls it.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Messages are relayed by users. Message data is first fetched from the source chain. After that, Nostr is queried (see 'Collecting Signatures') until enough validator signatures are obtained. The <code>receiveMessage</code> function is then called, which will call the destination contract. Note that warp.green is used as an oracle by the destination contract, which trusts the provided values (nonce, source chain id, source, contents) given that the Portal contract calls it.</p></figcaption></figure>

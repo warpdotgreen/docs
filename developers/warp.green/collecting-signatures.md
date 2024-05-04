@@ -1,8 +1,8 @@
 # Collecting Signatures
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Overview of the overall infrastructure. The app is generally responsible for building, initiating, and submitting all transactions. Each validator has an associated Nostr account where they post signatures. At launch, each validator is also responsible for maintaining a private Nostr relay that the browser can connect to.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Overview of the overall infrastructure. The app is generally responsible for building, initiating, and submitting all transactions. Each validator has an associated Nostr account where they post signatures. At launch, each validator is also responsible for maintaining a private Nostr relay that the browser can connect to.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Validators generally send their text note event to all private relays. If the Nostr server of a validator goes down but the signer is still working, it will still be possible for a user to fetch the validator's signature.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Validators generally send their text note event to all private relays. If the Nostr server of a validator goes down but the signer is still working, it will still be possible for a user to fetch the validator's signature.</p></figcaption></figure>
 
 A signature is comprised of:
 

@@ -14,6 +14,8 @@
   * [Chia - Sending Messages](developers/warp.green/chia-sending-messages.md)
   * [Chia - Receiving Messages](developers/warp.green/chia-receiving-messages.md)
   * [Collecting Signatures](developers/warp.green/collecting-signatures.md)
+* [ERC-20 Bridge](developers/erc-20-bridge/README.md)
+  * [Wrapping ERC-20s](developers/erc-20-bridge/wrapping-erc-20s.md)
 
 ## Validators
 
