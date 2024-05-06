@@ -27,7 +27,7 @@ You can run all the attestation commands on a machine that does NOT have your ho
 {% endhint %}
 
 {% hint style="info" %}
-By default, your public cold key is taken from the config. If you're just setting things up, specify your public key using the optional `--pubkyey [tangem-public-key]` switch.
+By default, your public cold key is taken from the config. If you're just setting things up, specify your public key using the optional `--pubkey [tangem-public-key]` switch.
 {% endhint %}
 
 Remember to replace `[challenge]` with the given challenge and `[index]` with your assigned validator index. The command will generate a QR code and save it to 'qr.png.'
