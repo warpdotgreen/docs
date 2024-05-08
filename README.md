@@ -4,13 +4,9 @@
 
 warp.green is a protocol that allows messages to be passed between supported chains (Chia and Ethereum & Base) via a trusted set of validators. Any app can integrate with the protocol to communicate across blockchains. At launch, two basic apps were also provided: an ERC-20 bridge and a CAT bridge.
 
-###
-
 ### Who audited you?
 
 \[todo: evm + clsp + link to repo yet to be created]
-
-###
 
 ### What are the fees associated with bridging?
 
@@ -22,8 +18,6 @@ There are three main 'fees' that users have to keep in mind:
   * For messages originating on Base/Ethereum chains, the toll is `0.00001 ETH`&#x20;
 * **Bridge tips**: Bridge contracts redirect a small portion of the funds (0.3%) to the protocol.
 
-###
-
 ### Who are the validators?
 
 The validators that secure the warp.green protocol are:
@@ -31,8 +25,6 @@ The validators that secure the warp.green protocol are:
 * \[list of validators will come here]
 
 Please note that validators operate through several legal entities; the list above is only intended to give a sense of the people and teams maintaining them.
-
-###
 
 ### What are the risks associated with bridging?
 
