@@ -20,7 +20,7 @@ A list of the options and their respective descriptions can be viewed via:
 python3 cli.py rekey sign-tx --help
 ```
 
-The process to generate the key is identical to the one used during [attestations](attestations.md) (generate QR code, scan with Ozone wallet, get signature). The `{validator-index}-{signature}` string should be sent to validator 0.
+The process to generate the signature is identical to the one used during [attestations](attestations.md) (generate QR code, scan with Ozone wallet, get signature). The `{validator-index}-{signature}` string should be sent to validator 0.
 
 {% hint style="info" %}
 Your signature authorizes the transition from the keys/threshold in the current config to the newly-specified values. It can be used to update _any_ portal coin with the settings in your config to the new settings. This means that messages can be relayed while the signatures are gathered, leading to minimal service disruption.
