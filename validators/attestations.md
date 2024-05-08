@@ -51,6 +51,10 @@ To sign the challenge, open the Ozone Wallet app on your phone and sign in to th
 
 On the new screen, you'll have a QR icon in the top right corner - press on it, and scan the contents of the previously-generated QR code. The message field should be auto-filled with the `Message hash` outputted by the previous `cli.py` command.
 
+{% hint style="info" %}
+If you can't view 'qr.png', simply copy the JSON string after 'QR code data' and put it into any QR code generator (such as [this one](https://www.qr-code-generator.com/)). Scan the resulting QR code with Ozone. **DO NOT** simply copy the hash/JSON - the `"bridge": true` part of the JSON tells Ozone to use a special signing method.
+{% endhint %}
+
 After following the on-screen instructions (tap Tangem card, enter PIN, etc.), you'll see a box saying 'Signature' that contains JSON. Your attestation is a string in the following format: `{validator_index}-{signature}`. Take both values from the JSON and send them for verification.
 
 Example attestation:

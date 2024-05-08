@@ -53,7 +53,7 @@ Ethereum cold address: {your-eth-hardware-wallet-address}
 Chia hot key: {your-newly-generated-xch-pubkey-hex}
 Chia cold key: {your-tangem-pubkey}
 
-Attestation: {your-attestation}
+Attestation: {validator_index}-{your-signature}
 ```
 
 {% hint style="info" %}
@@ -143,7 +143,7 @@ The message will also contain a list of public keys to add to your Nostr server 
 * `xch.agg_sig_data`: This is a constant that is specific to the network you're running.&#x20;
   * Testnet: `37a90eb5185a9c4439a91ddc98bbadce7b4feba060d50116a067de66bf236615` ([source](https://github.com/Chia-Network/chia-blockchain/blob/main/chia/util/initial-config.yaml#L90))&#x20;
   * Mainnet: `ccd5bb71183532bff220ba46c268991a3ff07eb358e8255a65c30a2dce0e5fbb` ([source](https://github.com/Chia-Network/chia-blockchain/blob/main/chia/util/initial-config.yaml#L18))
-* `xch.portal_threshold` ,  `xch.multisig_threshold`, `eth.portal_threshold` ,  `bse.portal_threshold`: Set to 5 for testnet, 8 for mainnet
+* `xch.portal_threshold` ,  `xch.multisig_threshold`, `eth.portal_threshold` ,  `bse.portal_threshold`: Set to 3 for testnet, 7 for mainnet
 * `xch.sign_min_height`: The minimum number of confirmations a message needs to have on Chia for it to be signed. Used to prevent attacks exploiting re-orgs - set this value to 5 for testnet and 32 for mainnet ([source](https://docs.chia.net/consensus-analysis/)).
 * `eth.rpc_url`: Point this to your Ethereum RPC URL.
   * If you're on testnet and waiting for your node to sync, you can set the value to an Alchemy/Infura/etc. RPC URL. However, please make sure to make it point to your node later, as you should test your whole infrastructure.
@@ -153,7 +153,7 @@ The message will also contain a list of public keys to add to your Nostr server 
   * For testnet, please ensure that you select 'Base Sepolia' (i.e., testnet) before copying the URL. It's somewhere on the page, and the default is mainnet even if you 'created' a testnet node. The value should look like this: `https://api.developer.coinbase.com/rpc/v1/base-sepolia/[api-key]`
 
 {% hint style="info" %}
-Don't forget to update your Nostr server's pubkey whitelist.
+Don't forget to update your Nostr server's pubkey whitelist - Validator 0 will share the list after all validators have submitted their attestations.
 {% endhint %}
 
 ## Step 2:  Deploy contracts
