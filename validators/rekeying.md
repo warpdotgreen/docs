@@ -41,3 +41,7 @@ After the transaction is confirmed, validators should update the affected `confi
 ### Verifying
 
 Use the `verify-tx-sig` command of the `rekey` module to verify anyone's rekey signature.&#x20;
+
+```
+python3 cli.py rekey verify-tx-sig --help
+```
