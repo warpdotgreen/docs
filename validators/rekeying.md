@@ -10,13 +10,17 @@ For Chia, the portal singleton comes with a built-in update mechanism. After val
 python3 cli.py rekey sign-tx --new-message-keys [new-message-keys] --new-message-threshold [new-message-threshold] --new-update-keys [new-update-keys] --new-update-threshold [new-update-threshold] --validator-index [validator-index]
 ```
 
+{% hint style="info" %}
+Message keys refer to hot keys, while update keys refer to cold keys. It's recommended that you take these from your current `config.json` file and then modify where needed. Current message and update keys are taken from the config - so make sure to keep it up to date and only update the information **after** someone (usually validator 0) has submitted and confirmed the rekey transaction.
+{% endhint %}
+
 A list of the options and their respective descriptions can be viewed via:
 
 ```
 python3 cli.py rekey sign-tx --help
 ```
 
-The process to generate the key is identical to the one used during [attestations](attestations.md) (generate QR code, scan with Ozone wallet, get signature). The `{validator-index}-{signature}` string should be sent to validator 0via either private message or on Keybase.
+The process to generate the key is identical to the one used during [attestations](attestations.md) (generate QR code, scan with Ozone wallet, get signature). The `{validator-index}-{signature}` string should be sent to validator 0.
 
 {% hint style="info" %}
 Your signature authorizes the transition from the keys/threshold in the current config to the newly-specified values. It can be used to update _any_ portal coin with the settings in your config to the new settings. This means that messages can be relayed while the signatures are gathered, leading to minimal service disruption.
