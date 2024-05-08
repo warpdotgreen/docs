@@ -31,5 +31,9 @@ Always know what you're signing. The validator generating the transaction will u
 {% endhint %}
 
 {% hint style="info" %}
+A malicious transaction can theoretically make its way in the queue. Any action signed by at least one validator will show up - it's vital that you check transactions and point out when something looks strange.
+{% endhint %}
+
+{% hint style="info" %}
 If you're the last signer, you'll have the option to execute the transaction. You can always select 'No' and just send your signature - that way, any other validator (even those that have already signed) will be able to execute the transaction - i.e., send it on-chain by paying the required transaction fees.
 {% endhint %}
