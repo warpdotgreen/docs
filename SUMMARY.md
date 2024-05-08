@@ -24,6 +24,7 @@
 
 ## Validators
 
+* [Wallets](validators/wallets.md)
 * [Deployment](validators/deployment.md)
 * [Attestations](validators/attestations.md)
 * [Rekeying](validators/rekeying.md)
