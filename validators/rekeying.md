@@ -14,6 +14,10 @@ python3 cli.py rekey sign-tx --new-message-keys [new-message-keys] --new-message
 Message keys refer to hot keys, while update keys refer to cold keys. It's recommended that you take these from your current `config.json` file and then modify where needed. Current message and update keys are taken from the config - so make sure to keep it up to date and only update the information **after** someone (usually validator 0) has submitted and confirmed the rekey transaction.
 {% endhint %}
 
+{% hint style="info" %}
+Message and update keys should be given as a single string separated by commas (no spaces). Example: `val1,val2,val3`
+{% endhint %}
+
 A list of the options and their respective descriptions can be viewed via:
 
 ```
@@ -32,4 +36,8 @@ Once enough signatures have been gathered, validator 0 will assemble a spend bun
 python3 cli.py rekey broadcast-spend --help
 ```
 
-Once the transaction is confirmed, validators should update the affected `config.json` files. The frontend code configuration will also need to be updated.
+After the transaction is confirmed, validators should update the affected `config.json` files. The frontend code configuration will also need to be updated.
+
+### Verifying
+
+Use the `verify-tx-sig` command of the `rekey` module to verify anyone's rekey signature.&#x20;
