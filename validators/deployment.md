@@ -170,6 +170,10 @@ In the Safe app, a deployment transaction will also be created shortly after. Af
 python3 cli.py deployment get-evm-deployment-data --weth-address meth --tip 30 --chain [chain-id]
 ```
 
+{% hint style="info" %}
+Slightly different versions of the solidity compiler might generate different addresses. Check the addresses from the output against what you got from Validator 0 - on mainnet, a specific docker image will be used, which you will be able to use yourself to get the same address.
+{% endhint %}
+
 Where `[chain-id]` is either 'eth' or 'bse.' For each EVM network, you can go on to fill the following config values:
 
 * `portal_address`: The address of the portal. In the deploy command output, you can find it under `Tx 2: deploy TransparentUpgradeableProxy` as `Predicted address`.
