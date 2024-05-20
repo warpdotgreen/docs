@@ -4,6 +4,10 @@
 
 warp.green is a protocol that allows messages to be passed between supported chains (Chia and Ethereum & Base) via a trusted set of validators. Any app can integrate with the protocol to communicate across blockchains. At launch, two basic apps were also provided: an ERC-20 bridge and a CAT bridge.
 
+### What does 'Beta' mean?
+
+\[todo]
+
 ### Who audited you?
 
 \[todo: evm + clsp + link to repo yet to be created]
@@ -16,7 +20,7 @@ There are three main 'fees' that users have to keep in mind:
 * **Message tolls**: In order to prevent spam, the user is expected to pay low amounts of ether/chia when sending a message. These tolls are intended to prevent spam and get redirected to the block builder (e.g., miner/farmer). Please note that tolls may be updated at any time.
   * For messages originating from Chia, the toll is `0.001 XCH`
   * For messages originating on Base/Ethereum chains, the toll is `0.00001 ETH`&#x20;
-* **Bridge tips**: Bridge contracts redirect a small portion of the funds (0.3%) to the protocol.
+* **Bridge tips**: Bridge contracts redirect a small portion of the funds (0.3%) to the protocol. A minimum tip of 1 mojo is enforced by the contracts, which means that the minimum total transfer amount is 2 mojos worth of any token.
 
 ### Who are the validators?
 
