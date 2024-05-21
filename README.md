@@ -6,16 +6,16 @@ warp.green is a protocol that allows messages to be passed between supported cha
 
 ### What does 'Beta' mean?
 
-Almost 300 tests check if our Solidity contracts behave as expected, and simulated bridging operations ensure our puzzles work correctly. We've been on testnet for a while, and have gone through a round of security audits. That being said, the bridge is a very important piece of infrastructure, so we'd like to be on the cautious side.
+Almost 300 tests check if our Solidity contracts behave as expected, and simulated messaging/bridging operations ensure our puzzles work correctly. We've been on testnet for a while, and have gone through a round of security audits. That being said, the bridge is a very important piece of infrastructure, so we'd like to be on the cautious side.
 
-Beta means that more audits are coming to both sides of the bridge (see question below). It also means that we're monitoring everything  very closely to catch any bugs that might've not been fixed during the testnet phase. Validators are still experimenting with their infrastructure, so the bridge might also experience some downtime during beta.
+Beta means that more audits are coming to both sides of the protocol (see question below). It also means that we're monitoring everything  very closely to catch any bugs that might've not been fixed during the testnet phase. Validators are still experimenting with their infrastructure, so  some downtime might occur during beta.
 
 ### Are you secure?
 
 Security is a continuous effort. For this bridge, two aspects are important:
 
-* **Validators**: Compromising a majority of validators (i.e., 7 out of 11) could allow a malicious actor to take control of the bridge. During the selection process, technical ability and experience with highly-secure systems played a major role in the parties that were invited to become validators.&#x20;
-* **Code**: Alternatively, an exploit could lead to warped assets losing their peg. Before mainnet launch, Chia Network, Inc. has reviewed our chialisp puzzles, and our solidity contracts have gone through [an audit](https://hacken.io/audits/warp.green) from Hacken, a firm specializing in blockchain security. We're also running a continuous [bug bounty program](https://github.com/warpdotgreen/cli/blob/master/SECURITY.md). Before getting out of beta, we're going to go through one extra audit for each side of the bridge (EVM and coinset).
+* **Validators**: Compromising a majority of validators (i.e., 7 out of 11) could allow a malicious actor to take control of the protocol and apps built on top of it (e.g., bridges). During the selection process, technical ability and experience with highly-secure systems played a major role in the parties that were invited to become validators.&#x20;
+* **Code**: Alternatively, an exploit could lead to invalid messages being passed (in which case warped assets could lose their peg). Before mainnet launch, Chia Network, Inc. has reviewed our chialisp puzzles, and our solidity contracts have gone through [an audit](https://hacken.io/audits/warp.green) from Hacken, a firm specializing in blockchain security. We're also running a continuous [bug bounty program](https://github.com/warpdotgreen/cli/blob/master/SECURITY.md). Before getting out of beta, we're going to go through one extra audit for each side of the protocol (EVM and coinset).
 
 ### What are the fees associated with bridging?
 
