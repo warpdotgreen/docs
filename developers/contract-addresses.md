@@ -8,10 +8,10 @@
 
 ### Base Mainnet
 
-<table><thead><tr><th width="236">Contract</th><th>Address</th><th data-hidden></th></tr></thead><tbody><tr><td>Portal.sol</td><td>TBA</td><td></td></tr><tr><td>MilliETH.sol</td><td>TBA</td><td></td></tr><tr><td>ERC20Bridge.sol</td><td>TBA</td><td></td></tr><tr><td>WrappedCAT.sol (wXCH)</td><td>TBA</td><td></td></tr><tr><td>WrappedCAT.sol (DSBX)</td><td>TBA</td><td></td></tr><tr><td>WrappedCAT.sol (wSBX)</td><td>TBA</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="236">Contract</th><th>Address</th><th data-hidden></th></tr></thead><tbody><tr><td>Portal.sol</td><td><a href="https://basescan.org/address/0x382bd36d1dE6Fe0a3D9943004D3ca5Ee389627EE">0x382bd36d1dE6Fe0a3D9943004D3ca5Ee389627EE</a></td><td></td></tr><tr><td>MilliETH.sol</td><td><a href="https://basescan.org/address/0xf2D5d8eC69E2faed5eB4De90749c87ee314a4B12">0xf2D5d8eC69E2faed5eB4De90749c87ee314a4B12</a></td><td></td></tr><tr><td>ERC20Bridge.sol</td><td><a href="https://basescan.org/address/0x8412f06e811b858Ea9edcf81a5E5882dbf70aC96">0x8412f06e811b858Ea9edcf81a5E5882dbf70aC96</a></td><td></td></tr><tr><td>WrappedCAT.sol (wXCH)</td><td><a href="https://basescan.org/address/0x36be1d329444aeF5D28df3662Ec5B4F965Cd93E9">0x36be1d329444aeF5D28df3662Ec5B4F965Cd93E9</a></td><td></td></tr><tr><td>WrappedCAT.sol (wDBX)</td><td><a href="https://basescan.org/address/0x2dabfFED5584DAb0CA3f9A56BA849f97A08cAd9A">0x2dabfFED5584DAb0CA3f9A56BA849f97A08cAd9A</a></td><td></td></tr><tr><td>WrappedCAT.sol (wSBX)</td><td><a href="https://basescan.org/address/0x0f374737547cC191f940E02763084CD62BCDe4a6">0x0f374737547cC191f940E02763084CD62BCDe4a6</a></td><td></td></tr></tbody></table>
 
 
 
 ### Chia Mainnet
 
-<table><thead><tr><th width="233">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Portal Launcher Id</td><td>TBA</td></tr></tbody></table>
+<table><thead><tr><th width="233">Parameter</th><th>Value</th></tr></thead><tbody><tr><td>Portal Launcher Id</td><td>46e2bdbbcd1e372523ad4cd3c9cf4b372c389733c71bb23450f715ba5aa56d50</td></tr></tbody></table>
