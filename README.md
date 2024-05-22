@@ -6,16 +6,16 @@ warp.green is a protocol that allows messages to be passed between supported cha
 
 ### What does 'Beta' mean?
 
-Almost 300 tests check if our Solidity contracts behave as expected, and simulated messaging/bridging operations ensure our puzzles work correctly. We've been on testnet for a while, and have gone through a round of security audits. That being said, the bridge is a very important piece of infrastructure, so we'd like to be on the cautious side.
+Almost 300 tests check if our Solidity contracts behave as expected, and simulated messaging/bridging operations ensure our puzzles work correctly. We've been on testnet for a while, and have gone through a round of security audits. That being said, the bridge is a very important piece of infrastructure, so we'd like to be very cautious.
 
-Beta means that more audits are coming to both sides of the protocol (see question below). It also means that we're monitoring everything  very closely to catch any bugs that might've not been fixed during the testnet phase. Validators are still experimenting with their infrastructure, so  some downtime might occur during beta.
+Beta means that more audits are coming to both sides of the protocol (see question below). We're monitoring everything  very closely to catch any bugs that might've not been fixed during the testnet phase. Validators might still change their infrastructure, so  some downtime might occur during beta.
 
 ### Are you secure?
 
 Security is a continuous effort. For this bridge, two aspects are important:
 
-* **Validators**: Compromising a majority of validators (i.e., 7 out of 11) could allow a malicious actor to take control of the protocol and apps built on top of it (e.g., bridges). During the selection process, technical ability and experience with highly-secure systems played a major role in the parties that were invited to become validators.&#x20;
-* **Code**: Alternatively, an exploit could lead to invalid messages being passed (in which case warped assets could lose their peg). Before mainnet launch, Chia Network, Inc. has reviewed our chialisp puzzles, and our solidity contracts have gone through [an audit](https://hacken.io/audits/warp.green) from Hacken, a firm specializing in blockchain security. We're also running a continuous [bug bounty program](https://github.com/warpdotgreen/cli/blob/master/SECURITY.md). Before getting out of beta, we're going to go through one extra audit for each side of the protocol (EVM and coinset).
+* **Validators**: Compromising a supermajority of validators (i.e., 7 out of 11) could allow a malicious actor to take control of the protocol and apps built on top of it (e.g., bridges). During the selection process, technical ability and experience with highly-secure systems were a major consideration in the decision of whether to invite a party to become a validator or not.&#x20;
+* **Code**: Alternatively, an exploit could lead to invalid messages being passed (in which case warped assets could lose their peg, and other apps using the bridge would also suffer). Before mainnet launch, Chia Network, Inc. has reviewed our chialisp puzzles, and our Solidity contracts have gone through [an audit](https://hacken.io/audits/warp.green) from Hacken, a firm specializing in blockchain security. We're also maintaining a [bug bounty ](https://github.com/warpdotgreen/cli/blob/master/SECURITY.md)pot with funds to be given for responsible disclosures. Before getting out of beta, we're going to go through one extra audit for each side of the protocol (EVM and coinset).
 
 ### What are the fees associated with bridging?
 
@@ -43,12 +43,12 @@ The validators that secure the warp.green protocol are:
 * GIRITEC.COM
 * The Goby Team
 
-Please note that validators operate through several legal entities; the list above is only intended to give a sense of the people and teams maintaining them.
+Please note that validators operate through several legal entities; the list above is only intended to give a sense of the people and teams maintaining them. For any message to be successfully relayed, 7 of the 11 validators need to sign it.
 
 ### What are the risks associated with bridging?
 
 When bridging, you're exposed to multiple risks. Among them, we'd like to outline:
 
-* **Underlying blockchain risks**: One of the involved chains might experience consensus failure. This would likely lead to assets that cannot be unwrapped.
+* **Underlying blockchain risks**: One of the involved chains might experience consensus failure. This would likely lead to assets that cannot be unwrapped, and messages that have been delivered might become invalid.
 * **Smart contract / puzzle risks**: A vulnerability in the puzzles, smart contracts or overall design might allow malicious actors to steal user funds. To minimize this risk, we have undergone audits for both sides of the bridge - see questions above for more information.&#x20;
 * **Validator risk**: When relying the warp.green protocol, you're trusting that a majority of validators are honest and have not been compromised. For a list of the validators, please see the questions above.
