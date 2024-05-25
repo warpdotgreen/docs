@@ -10,6 +10,12 @@ Almost 300 tests check if our Solidity contracts behave as expected, and simulat
 
 Beta means that more audits are coming to both sides of the protocol (see question below). We're monitoring everything  very closely to catch any bugs that might've not been fixed during the testnet phase. Validators might still change their infrastructure, so  some downtime might occur during beta.
 
+### I've encountered an error while bridging - what should I do?
+
+First, refresh the page. If bridging still does not work, use your browser's back button to get back to the part of Step 3 where you need to generate an offer. Alternatively, you can also search your browser's history for `warp.green/bridge?step=2`. Once you're at step 3, generate another offer and wait for the transaction to be confirmed.
+
+If you still have problems or the solution above does not fit your case, please [contact us](users/contact-us.md).
+
 ### Are you secure?
 
 Security is a continuous effort. For this bridge, two aspects are important:
