@@ -8,20 +8,20 @@ warp.green is a protocol that allows messages to be passed between supported cha
 
 Almost 300 tests check if our Solidity contracts behave as expected, and simulated messaging/bridging operations ensure our puzzles work correctly. We've been on testnet for a while, and have gone through a round of security audits. That being said, the bridge is a very important piece of infrastructure, so we'd like to be very cautious.
 
-Beta means that more audits are coming to both sides of the protocol (see question below). We're monitoring everything  very closely to catch any bugs that might've not been fixed during the testnet phase. Validators might still change their infrastructure, so  some downtime might occur during beta.
+Beta means that we're monitoring everything  very closely to catch any bugs that might've not been fixed during the testnet phase. Validators might still change their infrastructure, so  some downtime might occur during beta.
 
 ### I've encountered an error while bridging - what should I do?
 
-First, refresh the page. If bridging still does not work, use your browser's back button to get back to the part of Step 3 where you need to generate an offer. Alternatively, you can also search your browser's history for `warp.green/bridge?step=2`. Once you're at step 3, generate another offer and wait for the transaction to be confirmed.
+Refresh the page. If you want to resume an ongoing transfer, please go to [warp.green/explorer](https://www.warp.green/explorer), find it, and click 'Complete Relay'.
 
-If you still have problems or the solution above does not fit your case, please [contact us](users/contact-us.md).
+If you still have problems, please [contact us](users/contact-us.md).
 
 ### Are you secure?
 
 Security is a continuous effort. For this bridge, two aspects are important:
 
 * **Validators**: Compromising a supermajority of validators (i.e., 7 out of 11) could allow a malicious actor to take control of the protocol and apps built on top of it (e.g., bridges). During the selection process, technical ability and experience with highly-secure systems were a major consideration in the decision of whether to invite a party to become a validator or not.&#x20;
-* **Code**: Alternatively, an exploit could lead to invalid messages being passed (in which case warped assets could lose their peg, and other apps using the bridge would also suffer). Before mainnet launch, Chia Network, Inc. has reviewed our chialisp puzzles, and our Solidity contracts have gone through [an audit](https://hacken.io/audits/warp.green) from Hacken, a firm specializing in blockchain security. We're also maintaining a [bug bounty ](https://github.com/warpdotgreen/cli/blob/master/SECURITY.md)pot with funds to be given for responsible disclosures. Before getting out of beta, we're going to go through one extra audit for each side of the protocol (EVM and coinset).
+* **Code**: Alternatively, an exploit could lead to invalid messages being passed (in which case warped assets could lose their peg, and other apps using the bridge would also suffer). Before mainnet launch, Chia Network, Inc. has reviewed our chialisp puzzles, and our Solidity contracts have gone through [an audit](https://hacken.io/audits/warp.green) from Hacken, a firm specializing in blockchain security. We're also maintaining a [bug bounty ](https://github.com/warpdotgreen/cli/blob/master/SECURITY.md)pot with funds to be given for responsible disclosures. Shortly after launch, Zellic, another security-focused company, has performed [another audit](https://github.com/Zellic/publications/blob/master/warpdotgreen-cli%20-%20Zellic%20Audit%20Report.pdf) on our Solidity contracts.
 
 ### What are the fees associated with bridging?
 
