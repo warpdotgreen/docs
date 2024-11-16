@@ -18,7 +18,7 @@ Note that all of the above functions are also given a receiver puzzle hash as an
 
 At first sight, one might wonder why an offer is needed on the Chia side. The offer serves two purposes:
 
-* Provide a transaction fee: When the mempool is fool, transactions with no fees are rejected. Asking the user to create an offer gives them control over the fee that is paid (higher fee leads to lower confirmation time).
+* Provide a transaction fee: When the mempool is full, transactions with no fees are rejected. Asking the user to create an offer gives them control over the fee that is paid (higher fee leads to lower confirmation time).
 * Provide mojos: To mint wrapped CATs, a small amount of mojos needs to be used. Because the bridge layer is immutable and permissionless, the value has to come from the user.&#x20;
 
 ### Eve CAT Coin
