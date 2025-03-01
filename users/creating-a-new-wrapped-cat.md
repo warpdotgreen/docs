@@ -8,6 +8,8 @@ As a result of many requests from the Chia community, the team has decided to cr
 
 **Note**: Before beginning, make sure your token details are consistent and up-to-date on Dexie, SpaceScan, and TibetSwap.
 
+**Note 2**: An example PR can be found [here](https://github.com/warpdotgreen/warp-ui/pull/35).
+
 ## Step 1: Deploy WrappedCAT Contract on Base
 
 The first step in the process required you to deploy a special ERC-20 contract for the future warped CAT. This contract uses the bridge portal contract as an 'oracle' to parse messages from Chia and mint equivalent warped CATs. Moreover, the contract allows users to burn their warped CATs in order to send an 'unlock' message to Chia, where they get the same amount (minus a fee) of real CATs.
