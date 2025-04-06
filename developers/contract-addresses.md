@@ -28,6 +28,7 @@
 <tr><td>WrappedCAT.sol (wJOCK)</td><td><a href="https://basescan.org/address/0x20CC08b1135D7Ae892D6b5C799f0aBb51D822899">0x20CC08b1135D7Ae892D6b5C799f0aBb51D822899</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wCHUMP)</td><td><a href="https://basescan.org/address/0xCF38291b2A89Cb884a161E363Bfcc2b2F70E1844">0xCF38291b2A89Cb884a161E363Bfcc2b2F70E1844</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wPIZZA)</td><td><a href="https://basescan.org/address/0x3A7B077d815614ae51100fCBd7Fe1EE104Ae4b66">0x3A7B077d815614ae51100fCBd7Fe1EE104Ae4b66</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (wSBF)</td><td><a href="https://basescan.org/address/0xCe031c942F63769F7ef5C67b337B126A983EA952">0xCe031c942F63769F7ef5C67b337B126A983EA952</a></td><td></td></tr>
 
 </tbody></table>
 
