@@ -17,8 +17,6 @@
 <tr><td>WrappedCAT.sol (wTWV)</td><td><a href="https://basescan.org/address/0xb23b3F88E1c4564C42177B7b28757f275D2aCBB9">0xb23b3F88E1c4564C42177B7b28757f275D2aCBB9</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wYKY)</td><td><a href="https://basescan.org/address/0x78701035aCB24261d532E73B0836478c5c01E0f1">0x78701035aCB24261d532E73B0836478c5c01E0f1</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wNIOC)</td><td><a href="https://basescan.org/address/0x8f0Fc5F93832A1A3368e0a25c2798e1B4c4c7437">0x8f0Fc5F93832A1A3368e0a25c2798e1B4c4c7437</a></td><td></td></tr>
-<tr><td>WrappedCAT.sol (w$BTC)</td><td><a href="https://basescan.org/address/0x36191b19FafA6B0b470E1A9986Ad50a0AD559950">0x36191b19FafA6B0b470E1A9986Ad50a0AD559950</a></td><td></td></tr>
-<tr><td>WrappedCAT.sol (w$CAT)</td><td><a href="https://basescan.org/address/0xf543D9930337af6A6601D19564AaeB58EbF87451">0xf543D9930337af6A6601D19564AaeB58EbF87451</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wWAR)</td><td><a href="https://basescan.org/address/0xBB5ed692F675108B454202b8789351599f6E829C">0xBB5ed692F675108B454202b8789351599f6E829C</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wMWIF)</td><td><a href="https://basescan.org/address/0x014bab9524f4408ef13262401E5609547F7E8718">0x014bab9524f4408ef13262401E5609547F7E8718</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wMZ)</td><td><a href="https://basescan.org/address/0xaC0c9DB04234668A1C15F47C7BE9c5D7040b0506">0xaC0c9DB04234668A1C15F47C7BE9c5D7040b0506</a></td><td></td></tr>
@@ -28,6 +26,10 @@
 <tr><td>WrappedCAT.sol (wJOCK)</td><td><a href="https://basescan.org/address/0x20CC08b1135D7Ae892D6b5C799f0aBb51D822899">0x20CC08b1135D7Ae892D6b5C799f0aBb51D822899</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wCHUMP)</td><td><a href="https://basescan.org/address/0xCF38291b2A89Cb884a161E363Bfcc2b2F70E1844">0xCF38291b2A89Cb884a161E363Bfcc2b2F70E1844</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wPIZZA)</td><td><a href="https://basescan.org/address/0x3A7B077d815614ae51100fCBd7Fe1EE104Ae4b66">0x3A7B077d815614ae51100fCBd7Fe1EE104Ae4b66</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (wCAT)</td><td><a href="https://basescan.org/address/0x69adFc7C32e12b17B875087c217209B7e13bFff9">0x69adFc7C32e12b17B875087c217209B7e13bFff9</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (wDWB)</td><td><a href="https://basescan.org/address/0xc65151ac284f43A51F0A843F6A46930EfF0076c5">0xc65151ac284f43A51F0A843F6A46930EfF0076c5</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (wPP)</td><td><a href="https://basescan.org/address/0xB5908e2ed3cfb5b6cfB0D5c7D8f4FAdA105861B2">0xB5908e2ed3cfb5b6cfB0D5c7D8f4FAdA105861B2</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (wSBF)</td><td><a href="https://basescan.org/address/0xCe031c942F63769F7ef5C67b337B126A983EA952">0xCe031c942F63769F7ef5C67b337B126A983EA952</a></td><td></td></tr>
 
 </tbody></table>
 
