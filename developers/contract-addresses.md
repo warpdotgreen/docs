@@ -30,6 +30,16 @@
 <tr><td>WrappedCAT.sol (wDWB)</td><td><a href="https://basescan.org/address/0xc65151ac284f43A51F0A843F6A46930EfF0076c5">0xc65151ac284f43A51F0A843F6A46930EfF0076c5</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wPP)</td><td><a href="https://basescan.org/address/0xB5908e2ed3cfb5b6cfB0D5c7D8f4FAdA105861B2">0xB5908e2ed3cfb5b6cfB0D5c7D8f4FAdA105861B2</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wSBF)</td><td><a href="https://basescan.org/address/0xCe031c942F63769F7ef5C67b337B126A983EA952">0xCe031c942F63769F7ef5C67b337B126A983EA952</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (wGRC)</td><td><a href="https://basescan.org/address/0x61B5368b955450250EAd959C703aCE38943f88e5">0x61B5368b955450250EAd959C703aCE38943f88e5</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (w¢ni)</td><td><a href="https://basescan.org/address/0x28aEb37F911c1A9E9BD22fD5d333C1A7E0335183">0x28aEb37F911c1A9E9BD22fD5d333C1A7E0335183</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (wCOOKIES)</td><td><a href="https://basescan.org/address/0x90be21da4Ab0f141f224fD8C1cc73220dcFF9189">0x90be21da4Ab0f141f224fD8C1cc73220dcFF9189</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (wHonK)</td><td><a href="https://basescan.org/address/0xF6C04947A13481daAf4E8756B04f3D6bB7C30efF">0xF6C04947A13481daAf4E8756B04f3D6bB7C30efF</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (wGOLD)</td><td><a href="https://basescan.org/address/0x0E6049B54cBb09da15Cd0b4578D45AEdd3150b8b">0x0E6049B54cBb09da15Cd0b4578D45AEdd3150b8b</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (wMOG)</td><td><a href="https://basescan.org/address/0xddadf2DD421819eeC424040a01bC76B7809879B6">0xddadf2DD421819eeC424040a01bC76B7809879B6</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (w$DUMB)</td><td><a href="https://basescan.org/address/0x9D1A9f442f194282fa47e8e45806375107b0a58e">0x9D1A9f442f194282fa47e8e45806375107b0a58e</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (wSPACE)</td><td><a href="https://basescan.org/address/0xe5F66250807883DF33aF8973A86e5593F98F9E9E">0xe5F66250807883DF33aF8973A86e5593F98F9E9E</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (wCOFFEE)</td><td><a href="https://basescan.org/address/0x3c03a9182C2810925D688f4a5420E1B8Ca7fFB58">0x3c03a9182C2810925D688f4a5420E1B8Ca7fFB58</a></td><td></td></tr>
+
 
 </tbody></table>
 
