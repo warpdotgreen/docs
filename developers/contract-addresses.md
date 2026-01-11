@@ -45,6 +45,7 @@
 <tr><td>WrappedCAT.sol (wTIBET-NeckCoin-XCH)</td><td><a href="https://basescan.org/address/0x9c6CAC4E0b34D21C52202d10f72995C5574cDe64">0x9c6CAC4E0b34D21C52202d10f72995C5574cDe64</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wNWO)</td><td><a href="https://basescan.org/address/0x0fB9e135419bc82D4Fe250bf2b79fBcbec212639">0x0fB9e135419bc82D4Fe250bf2b79fBcbec212639</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wPlank)</td><td><a href="https://basescan.org/address/0x66B55cBbBDd3a96C94220DD4C7A1f47b4213e285">0x66B55cBbBDd3a96C94220DD4C7A1f47b4213e285</a></td><td></td></tr>
+<tr><td>WrappedCAT.sol (wBYC)</td><td><a href="https://basescan.org/address/0x16b13A47B0C535EFaE58675e0657d3C22471cdA8">0x16b13A47B0C535EFaE58675e0657d3C22471cdA8</a></td><td></td></tr>
 
 
 </tbody></table>
