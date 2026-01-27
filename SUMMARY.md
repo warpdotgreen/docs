@@ -3,6 +3,7 @@
 ## Users
 
 * [FAQ](README.md)
+* [XCH Bridge Guide](users/xch-bridge-guide.md)
 * [Creating a New Wrapped CAT](users/creating-a-new-wrapped-cat.md)
 * [Contact Us](users/contact-us.md)
 
