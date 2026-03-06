@@ -47,7 +47,7 @@
 <tr><td>WrappedCAT.sol (wPlank)</td><td><a href="https://basescan.org/address/0x66B55cBbBDd3a96C94220DD4C7A1f47b4213e285">0x66B55cBbBDd3a96C94220DD4C7A1f47b4213e285</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wBYC)</td><td><a href="https://basescan.org/address/0x16b13A47B0C535EFaE58675e0657d3C22471cdA8">0x16b13A47B0C535EFaE58675e0657d3C22471cdA8</a></td><td></td></tr>
 <tr><td>WrappedCAT.sol (wMINUTES)</td><td><a href="https://basescan.org/address/0x75fE74892c15b9cfddbCD24C388d07a3c8c7D7c6">0x75fE74892c15b9cfddbCD24C388d07a3c8c7D7c6</a></td><td></td></tr>
-
+<tr><td>WrappedCAT.sol (wWESO)</td><td><a href="https://basescan.org/address/0xb7Cf6834259fE7331924Bf96Ae88CFD6269bfEB0">0xb7Cf6834259fE7331924Bf96Ae88CFD6269bfEB0</a></td><td></td></tr>
 
 </tbody></table>
 
