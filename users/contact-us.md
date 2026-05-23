@@ -4,7 +4,7 @@ If you have any questions or suggestions, our point of contact is yakuhito. The 
 
 * Email: `y@kuhi.to`
 * Keybase: [yakuhito\_chia](https://keybase.io/yakuhito_chia)
-* Twitter/X: [yakuhito](https://twitter.com/yakuh1t0)
+* Twitter/X: [yakuhito](https://x.com/yakuhito)
 
 Please use the same details to report vulnerabilities or reach out for potential collaborations.
 
